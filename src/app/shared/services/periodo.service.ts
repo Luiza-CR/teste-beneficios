@@ -27,7 +27,7 @@ export class PeriodoService {
   }
 
   isExpandable(node: string): boolean {
-
+   
     return this.dataMap.has(node);
 
   }
