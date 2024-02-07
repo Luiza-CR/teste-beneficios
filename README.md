@@ -1,5 +1,7 @@
 # BeneficiosProto
 
+# > Repositório criado para testar e criar componentes no front end do projeto sistema de benefícios. < 
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.9.
 
 ## Development server
