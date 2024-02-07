@@ -1,0 +1,67 @@
+<header>
+
+  <mat-toolbar>
+    <mat-toolbar-row>
+
+      <span><img src="assets/images/logo-unilavras.png" alt="logo-unilavras"><b> </b>Benefícios</span>
+      <span class="example-spacer"></span>
+    </mat-toolbar-row>
+
+    <mat-toolbar-row>
+      <app-dynamic-mat-menu [data]="rootMenus" > </app-dynamic-mat-menu>
+      
+
+      <!-- <button mat-button [matMenuTriggerFor]="animals">Período: {{currentYear}}/<mat-icon>arrow_drop_down</mat-icon></button> -->
+
+      <!-- @for (item of periodos; track $index) {
+
+        <button mat-button [matMenuTriggerFor]="menuAno">Períodos</button>
+
+
+
+        <mat-menu #menuAno="">
+          <button mat-menu-item [matMenuTriggerFor]="x">{{ item.ano }}</button> -->
+      <!-- <mat-menu #x="matMenu" *ngFor="let periodo of item.periodos">
+        <button mat-menu-item>{{ periodo.periodo }}</button>
+      </mat-menu>
+        </mat-menu>
+
+      }
+
+
+ -->
+
+
+        <!-- <mat-menu #animals>
+
+          <ul>
+            <li *ngFor="let periodo of periodos">
+              <p> teste</p>
+
+            </li>
+          </ul>
+
+          <button mat-menu-item [matMenuTriggerFor]="semester">2024 </button>
+          <button mat-menu-item [matMenuTriggerFor]="semester">2023</button>
+
+
+
+        </mat-menu>
+
+
+    <mat-menu #semester="matMenu">
+      <button mat-menu-item>1°</button>
+      <button mat-menu-item>2°</button>
+    </mat-menu>
+
+    <mat-menu #semester="matMenu">
+      <button mat-menu-item>1°</button>
+      <button mat-menu-item>2°</button>
+    </mat-menu> -->
+
+      <span class="example-spacer"></span><button mat-button href="/import-page">Importar Arquivos <mat-icon> file_upload </mat-icon> </button>
+      <span class="example-spacer"></span><button mat-button>Consultar Candidatos <mat-icon> search </mat-icon> </button>
+      <span class="example-spacer"></span><button mat-button> Encerrar Sessão<mat-icon> logout </mat-icon> </button>
+
+    </mat-toolbar-row>
+

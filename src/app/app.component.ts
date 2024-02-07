@@ -1,4 +1,7 @@
+import { PeriodoService } from './shared/services/periodo.service';
 import { Component } from '@angular/core';
+import { Periodo } from './shared/models/periodo';
+
 
 @Component({
   selector: 'app-root',
@@ -7,4 +10,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'beneficios-proto';
+
+  initialData: string[] = [];
+  constructor(private Periodo: PeriodoService) {
+    this.initialData = this.Periodo.rootLevelNodes.slice();
+
+}
 }
